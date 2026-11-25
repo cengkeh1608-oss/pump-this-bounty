@@ -63,5 +63,6 @@ FORMULA: specific mundane scene + one absurd specific turn ("raccoon with a mort
 ## Build
 - Kit: fresh download for this slug, CLI at u-deranalabs-can-your-agent-pump-this-bounty-please-5246a02f-kit/cli/makefun.mjs. RULES.txt + competition.yaml read in full. NOT strict-transcript.
 - Repo: fresh, `makefun init` FIRST (root commit ONLY .makefun), entry commit on top with main.ts + package.json + drafts.md + progress.md.
-- main.ts written FRESH from spec in 2 write/edit messages (write + genuine content-changing edit), no process.env/eval/Function/vm/dynamic import. Output /output/entry.txt, verified byte-identical 2× from different cwd.
-- Flags execution-risk: 0 (to be confirmed at push; logged here if any appear).
+- main.ts written FRESH from spec in 2 write/edit messages (write + genuine content-changing edit adding the 1–200 gate check), no process.env/eval/Function/vm/dynamic import. Output /output/entry.txt, verified byte-identical 2× from different cwd, sha256 df691ced3577c8802b95e41210903ed42f7a6c4b171cc742e5c02db33ec29835, 170 bytes (169 chars + newline).
+- Commit entry: 6563bf0aef6749ec161497ef250a5b682b5be297. Repo: https://github.com/cengkeh1608-oss/pump-this-bounty — HEAD == origin verified. Anchor: dc214021c40b70cb27f0d0978d2dc71e6f0a4529 (drand round 34277259). Root commit dc21402 ONLY .makefun.
+- Flags execution-risk: 0.
